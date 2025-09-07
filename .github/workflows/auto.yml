@@ -2,7 +2,7 @@ name: Auto
 
 on:
   schedule:
-    - cron: "0 2 * * *" # [分] [時] [日] [月] [曜日]
+    - cron: "26 8 * * *" # [分] [時] [日] [月] [曜日]
   workflow_dispatch:
 
 env:
